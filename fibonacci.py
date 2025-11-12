@@ -1,11 +1,5 @@
-a=0
-b=1
-n=10
-def fib(a,b):
-    for i in range(n):
-        print(a)
-        c=a+b
-        a=b
-        b=c
-
-fib(a,b)
+x=int(input("enter a valid number="))
+a,b=0,1
+for i in range(x):
+    print(a)
+    a,b=b,a+b
